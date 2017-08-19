@@ -14,9 +14,11 @@ $(document).ready(function() {
   function getRandom() {
     return Math.random();
     console.log("hello");
+
   }
   $("header").click(function(){
     alert("Game Starting");
+    getRandom();
 
   });
 });
